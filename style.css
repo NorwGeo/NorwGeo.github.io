@@ -23,4 +23,8 @@ body{
     }
       td {
      border: 6px solid black;
-    }
+}
+a:visited{
+    color:darcblue;
+ 
+}
