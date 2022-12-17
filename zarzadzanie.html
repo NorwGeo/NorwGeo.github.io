@@ -7,6 +7,28 @@
     <title>Królestwo Norweskie</title>
     <link rel="icon" type="image/x-icon" href="./obrazy/N2.png">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+        function rzad(l){
+            
+            document.getElementById("obraz").innerHTML="<img src='obrazy/rzad/rzad"+l+".png'>";
+            //'obrazy/rzad/rzad"+n+".png'
+        }
+        function miasta(l){
+            var m=document.getElementById("miasta");
+            if(l==1){
+                m.innerHTML="Kattegat jest stolicą Królestwa Norweskiego, w jego skład wchodzi 29 obywateli. Jest siedzibą króla i jarla TenZnany. Obejmuje tereny ... <br> <img src='obrazy/miasta/m"+l+".png'>"
+            }
+            else if(l==2){
+                m.innerHTML="Rejkiawik jest ..., w jego skład wchodzi 10 obywateli. Jest siedzibą jarla KrólLisów. Obejmuje tereny ... <br> <img src='obrazy/miasta/m"+l+".png'>"
+            }
+            else if(l==3){
+                m.innerHTML="Kopenchaga jest ..., w jego skład wchodzi 7 obywateli. Jest siedzibą jarla bob. Obejmuje tereny ... <br> <img src='obrazy/miasta/m"+l+".png'>"
+            }
+            else if(l==4){
+                m.innerHTML="Nuuk jest ..., w jego skład wchodzi 5 obywateli. Jest siedzibą jarla Bezi. Obejmuje tereny ... <br> <img src='obrazy/miasta/m"+l+".png'>"
+            }
+        }
+    </script>
 </head>
 <body>
     <aside >
@@ -26,14 +48,51 @@
             <p style="width:100%;font-size: 30px;text-align: left;padding-left: 35px;">Królestwo Norweskie</p>
             <p style="width:100%;font-size: 40px;text-align: center;">Zarządzanie</p>
             
-            
-        <div>
-           
+        </header>
+       
+            <div style="width:50%;float:left;">
+            <h3>Rząd</h3>
+            <p class="text">
+                <ol type="I">
+                    <li>Króla
+                        <ul>
+                        <li onclick="rzad(1)">KAC_173</li>
+                        </ul>
+                    </li>
+                    <li>Jarlów
+                        <ul>
+                        <li onclick="rzad(2)">TenZnany</li>
+                        <li onclick="rzad(3)">KrólLisów</li>
+                        <li onclick="rzad(4)">bob</li>
+                        <li onclick="rzad(5)">Bezi</li>
+                        </ul>
+                    </li>
+                    <li>Ministrów
+                        
+                    </li>
+                    </ol>
+                
+            </p>
+            </div>
+            <div style="width:50%;float:left;"id="obraz">
+
+            </div>
+        
+        <div style="clear: both;width:50%;float:left;">
+            <h3>Miasta</h3>
+            <ul>
+                <li onclick="miasta(1)">Kattegat</li>
+                <li onclick="miasta(2)">Rejkiawik</li>
+                <li onclick="miasta(3)">Kopenchaga</li>
+                <li onclick="miasta(4)">Nuuk</li>
+            </ul>
+        </div>
+        <div style="width:50%;float:left;"id="miasta">
+                wd
         </div>
     </main>
-    <aside >
-        <img src="obrazy/LeftCorner.png" >
-    </aside>
+    
+
    
 </body>
 </html>
