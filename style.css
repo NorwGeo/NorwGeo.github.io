@@ -8,14 +8,15 @@ header{
     
     min-height: 187px;
 }
+
 aside{
     
     float:left;
     width:280px;
     background-color: rgb(47, 57, 82);
-    min-height: 790px;
-    height: fill;
-    color:white
+    min-height: 1424px;
+    height: 100%;
+    color:white;
 }
 main{
     
@@ -31,6 +32,6 @@ a{
     font-size:30px;
     text-decoration: none;
 }
-ul{
-    
+a:hover{
+    color:rgb(184, 204, 253);
 }
