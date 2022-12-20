@@ -31,6 +31,7 @@
     </script>
 </head>
 <body>
+    
     <aside >
         
         <img src="obrazy/LeftCorner.png" >
@@ -43,6 +44,7 @@
             </ul>
         </div>
     </aside>
+    
     <main>
         <header>
             <p style="width:100%;font-size: 30px;text-align: left;padding-left: 35px;">Królestwo Norweskie</p>
@@ -55,12 +57,12 @@
             <p class="text">
                 <ol type="I">
                     <li>Król
-                        <ul>
+                        <ul type="disc">
                         <li onclick="rzad(1)">KAC_173</li>
                         </ul>
                     </li>
                     <li>Jarlowie
-                        <ul>
+                        <ul type="disc">
                         <li onclick="rzad(2)">TenZnany</li>
                         <li onclick="rzad(3)">KrólLisów</li>
                         <li onclick="rzad(4)">bob</li>
@@ -68,7 +70,9 @@
                         </ul>
                     </li>
                     <li>Ministrowie
-                        
+                        <ul type="disc">
+                            
+                        </ul>
                     </li>
                     </ol>
                 
@@ -78,7 +82,7 @@
 
             </div>
         
-        <div style="clear: both;width:50%;float:left;">
+        <div style="clear: both;width:50%;float:left;" id="Miasta_cz">
             <h3>Miasta</h3>
             <ul>
                 <li onclick="miasta(1)">Kattegat</li>
@@ -90,9 +94,22 @@
         <div style="width:50%;float:left;"id="miasta">
                 
         </div>
+        <div style="clear: both;width:80%;float:left;">
+            <h3>System administracyjny</h3>
+            Norwegia jest podzielona na 5 stref administracyjnych z czego w 4 są połóżone <a href="#Miasta_cz" style="font-size:20px;color:black;">miasta</a>. Dzielą się na strefy:
+            <ul>
+                <li>Metropoliczne- głowne ośrodki społeczeństwa (w tym momencie jeden Kattedat), mają największą populację, rozmiar i wagę ze wszytkich.</li>
+                <li>Mieszkalne- ośrodki mieszkalne, ufortyfikowane miasta produkujące broń, sprzęt, surowne i pojazdy. Są idaalnie zbalansowane pomiędzy sektorami mieszkalnymi i przemysłowymi.</li>
+                <li>Exploatacji- tereny na kturych leży jedna pomniejsza osada/placówka, która jest porządnie ufortyfikowana. Strefy exploatacji skupiają się na wykrzystaniu zasobów naturanlych na 100%. Wytwarzają zaopatrzenie, sprzęt i surowce na masową skalę.</li>
+            </ul>
+            <img src="obrazy/Administracja.png">
+        </div>
     </main>
-    
-
+    <!--
+    <footer style="min-width:100%;height: 77px; clear: both;background: url(obrazy/stopka.png);">
+        
+    </footer>
+-->
    
 </body>
 </html>
