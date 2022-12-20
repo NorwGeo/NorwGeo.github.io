@@ -9,6 +9,9 @@ header{
     min-height: 187px;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
 aside{
     
     float:left;
