@@ -31,8 +31,9 @@ main{
     padding-right:20px;
     float:left;
     width: 70%;
-    height:fill;
-}
+    
+    background-color:rgb(73, 107, 185);
+}}
 a{
     color:white;
     font-size:30px;
