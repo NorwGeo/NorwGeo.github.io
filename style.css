@@ -35,9 +35,13 @@ main{
     
     background-color:rgb(73, 107, 185);
 }
-a{
+.links{
     color:white;
     font-size:30px;
+}
+a{
+    color:white;
+    
     text-decoration: none;
 }
 a:hover{
@@ -46,3 +50,8 @@ a:hover{
 #opis:hover{
     color:rgb(184, 186, 206);
 }
+.gazeta{
+    text-align: center; 
+    width: 50%; 
+    font-size: 30px;
+    float: left; 
