@@ -39,6 +39,11 @@ main{
     color:white;
     font-size:30px;
 }
+.info{
+    font-size:28px;
+    font-weight:540;
+    
+}
 a{
     color:white;
     
@@ -55,3 +60,4 @@ a:hover{
     width: 50%; 
     font-size: 30px;
     float: left; 
+}
