@@ -1,7 +1,10 @@
 body{
-    background-color:rgb(73, 107, 185);
+    /*background-color:rgb(73, 107, 185);*/
     margin:0px;
-    /*background: url(/obrazy/tlo1.png);*/
+    background-attachment: fixed;
+    background-size: cover;
+    color:rgb(180, 180, 185);
+    background-image: url(./obrazy/tlo3.png);
     height: 100%;
     }
 header{
@@ -10,7 +13,7 @@ header{
     min-height: 187px;
 }
 html {
-    background-color:rgb(73, 107, 185);
+    /*background-color:rgb(73, 107, 185);*/
     height: 100%;
 }
 ::-webkit-scrollbar {
@@ -18,9 +21,11 @@ html {
   }
 aside{
     position: fixed;
+    background-size: cover;
+    /*background-image: url(./obrazy/tlo6.png);*/
     float:left;
     width:280px;
-    background-color: rgb(47, 57, 82);
+    background-color: rgb(23, 24, 27);
     min-height: 100%;
     
     color:white;
@@ -33,7 +38,7 @@ main{
     float:left;
     width: 75%;
     
-    background-color:rgb(73, 107, 185);
+    /*background-color:rgb(73, 107, 185);*/
 }
 .links{
     color:white;
@@ -53,7 +58,7 @@ a:hover{
     color:rgb(184, 204, 253);
 }
 #opis:hover{
-    color:rgb(184, 186, 206);
+    color:rgb(185, 190, 255);
 }
 .gazeta{
     text-align: center; 
